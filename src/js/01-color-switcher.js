@@ -17,7 +17,7 @@ const randomBodyColorGenerator = {
     intervalID = setInterval(() => {
       changeBgColorRandom();
     }, this.DELAY);
-    stopBtnEl.disabled = false;
+    
   },
 
   start() {
